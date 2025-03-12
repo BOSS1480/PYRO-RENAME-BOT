@@ -13,6 +13,7 @@ fi
 
 cd /PyroBot
 pip3 install -U -r requirements.txt --force-reinstall
+pip install --upgrade pymongo
 echo "Starting Bot....✨"
 python3 bot.py
 
